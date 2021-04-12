@@ -1,6 +1,6 @@
 fn main() {
 
-    for x in 1..101 {
+    for x in 1..=100 {
         if x % 15 == 0 {
             println!("FizzBuzz");
         }else if x % 5 == 0 {
